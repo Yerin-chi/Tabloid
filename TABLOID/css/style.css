@@ -1,0 +1,231 @@
+body {
+    background-color: gray;
+}
+
+.main {
+    background-color: white;
+    margin: 5vw;
+    padding: 4vw 3vw 3vw 3vw;
+    width: auto;
+    height: 110vw;
+}
+
+/* ----------Section 1--------*/
+.main .headline {
+    width: 50vw;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-right: 2px solid rgb(165, 156, 156);
+    border-bottom: 2px solid rgb(165, 156, 156);
+    float: left;
+
+}
+.headline .p1{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.4vw;
+    padding: 0%;
+    margin: 0%;
+    float: left;
+    display: inline ;
+
+}
+
+.headline .p2{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.4vw;
+    padding: 0%;
+    margin: 0%;
+    text-align: right;
+}
+
+.headline .tempo {
+    width: 50vw;
+    height: 35vw;
+}
+
+/* ----------Section 2--------*/
+.main .div2 {
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid rgb(165, 156, 156);
+}
+.main .div2 .p3{
+    text-align: center;
+    padding: 0%;
+    margin: 0px 0px 2px 0px;
+    font-family: 'Patua One';
+    font-size: 2.3vw;
+}
+
+.main .div2 .p-group {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+    font-size: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+}
+.main .div2 .p-group p {
+    flex-basis: 45%;
+    text-align: justify;
+}
+
+.main .div2 .p-group .p-indent {
+    text-indent: 20px;
+}
+
+.main .div2 .p4{
+    text-align: center;
+    padding: 0%;
+    margin: 5px 0px 10px 0px;
+    font-family: 'Patua One';
+    font-size: 2vw;
+    color: rgb(228, 38, 38);
+}
+
+.main .div2 .p-group2 {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+    font-size: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main .div2 .p-group2 p {
+    flex-basis: 45%;
+    text-align: justify;
+}
+
+.main .div2 .p-group2 .p-indent {
+    text-indent: 20px;
+}
+
+.main .div2 .page {
+    margin-left: 75%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}   
+
+/* ----------Section 2 (arrow) --------*/
+.main .div2 .arrow {
+    width: 30vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+.main .div2 .p5 {
+    padding-left: 10px;
+    font-size: 1vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: justify;
+    border-left: 5px solid rgb(228, 38, 38);
+}
+
+/* ----------Section 3 --------*/
+
+.main .div3 .p6 {
+    padding-top: 2vw;
+    margin: 0%;
+    line-height: 120px;
+    font-family: 'Teko', sans-serif;
+    font-size: 13vw;
+    font-weight: bold;
+    word-spacing: 40px;
+}
+.main .div3 .p7 {
+    padding-top: 2vw;
+    margin: 0px 50px 0px 0px;
+    line-height: 120px;
+    font-family: 'Teko', sans-serif;
+    font-size: 13vw;
+    font-weight: bold;
+    float: left;
+
+}
+.main .div3 .p8 {
+    padding:10px;
+    margin: 15px 50px 0px 0px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 35px;
+    background-color: black;
+    color: white;
+    display: grid;
+}
+.main .div3 .p9 {
+    width: 20vw;
+    font-weight: bold;
+    font-family: 'Bitstream Vera', sans-serif;
+}
+
+.main .div3 .p-group3 {
+    width: 60%;
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+    font-size: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+}
+.main .div3 .p-group3 p {
+    flex-basis: 45%;
+    text-align: justify;
+}
+
+.main .div3 .p-group3 .p-indent {
+    text-indent: 20px;
+}
+
+.main .p-group3 .p10 {
+    font-size: 2.7vw;
+    font-family: 'Patua One';
+    color: white;
+    background-color: rgb(228, 38, 38);
+    text-align: center;
+    width: 50vw;
+    margin: 0%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/*-----------Right Side-----------*/
+.main .div3 .dna {
+    margin: 10px;
+    padding: 0%;
+    display: grid;
+    border-top: 2px solid rgb(165, 156, 156);
+    border-left: 2px solid rgb(165, 156, 156);
+}
+.main .div3 .dna .p11 {
+    margin: 0%;
+    color: rgb(228, 38, 38);
+    font-family: 'Patua One';
+    font-size: 2vw;
+    text-align: center;
+}
+.main .div3 .dna .ramos {
+    width: 31vw;
+}
+.main .div3 .dna .teves {
+    width: 31vw;
+    
+}
+
+/* ----------------- */
+.main .diaz .hidilyn {
+    width: 33vw;
+    float: left;
+}
+
+
+.main .diaz .pnp {
+    float: left;
+    width: 16vw;
+}
